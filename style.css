@@ -1,0 +1,59 @@
+/* Pour centrer tout le corps de la page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;     /* Centre verticalement */
+    min-height: 100vh;       /* Assure que le corps prend toute la hauteur */
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;      /* Centre le texte dans les éléments */
+}
+
+h1 {
+    color: #5A9;
+}
+
+input[type="text"] {
+    padding: 8px;
+    font-size: 16px;
+    margin-right: 10px;
+    border-radius: 4px; /* Ajoute des bords arrondis */
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 8px 12px;
+    background-color: #5A9;
+    color: white;
+    border: none;
+    border-radius: 4px; /* Ajoute des bords arrondis */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #468C80;
+}
+
+/* Style du conteneur météo */
+#weather {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 8px; /* Ajoute des bords arrondis */
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Ajoute une ombre douce */
+}
+
+/* Style du conteneur de la page (facultatif) */
+.container {
+    display: flex;
+    flex-direction: column; /* Organise les éléments verticalement */
+    align-items: center;    /* Centre les éléments horizontalement */
+    width: 100%;
+    max-width: 400px;       /* Limite la largeur du conteneur */
+}
